@@ -1,0 +1,183 @@
+* {
+  font-family: helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav li {
+  font-size: 14px bold;
+}
+
+.right-content {
+  margin-left: 150px;
+  height: 100%;
+  max-width: 1140px;
+}
+
+/*Left Navigation*/
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: black;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+}
+
+.logo-img {
+  width: 60%;
+  margin: 15%
+}
+
+.nav-item {
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 15px 10px 15px 0;
+}
+
+.explore {
+  border-right: 5px solid #4e9ad3;
+}
+
+.folder {
+  border-right: 5px solid #f631ef;
+}
+
+.upload {
+  border-right: 5px solid #ff9400;
+}
+
+div a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*Top title*/
+
+.top-title {
+  background-image: url("top_banner.jpg");
+  background-repeat: no-repeat;
+  height: 152px
+}
+
+.description-title {
+  color: #403f3f;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-left: 5px;
+}
+
+.assets-title {
+  color: #403f3f;
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 5px;
+  display: block;
+}
+
+.sort {
+  display: block;
+  height: 50px;
+}
+
+.sort i {
+  float: right;
+}
+
+
+/*Image-content*/
+
+.image-content {
+  padding: 0 12px;
+}
+
+.image-card {
+  vertical-align: top;
+  border: 1px lightgrey solid;
+  display: inline-block;
+  width: 31%;
+  height: 500px;
+  margin-right: 22px;
+  margin-bottom: 20px;
+}
+
+.image-card>img {
+  width: 100%;
+}
+
+.image-text {
+  text-align: center;
+  color: #403f3f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image-description {
+  padding: 18px;
+  line-height: 200%;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+hr {
+  width: 80%;
+}
+
+.img-icons {
+  margin: 0 auto;
+  width: 25%;
+}
+
+
+/*Icons*/
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.nav-item i {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.nav-text {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
